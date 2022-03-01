@@ -9,5 +9,5 @@ GH token is requried. Go to the [Personal access tokens](https://github.com/sett
 Let's export all available keys from Github and import them into GPG:
 ```bash
 export GH_TOKEN=<your_personal_token>
-./export-org-keys.sh <your_gh_organizatio> | gpg --import -
+./export-org-keys.sh <your_gh_organization> | gpg --import -
 ```
